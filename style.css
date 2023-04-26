@@ -1,12 +1,12 @@
 @font-face {
     font-family: "rickandmorty";
+    font-weight: 300;
     src: url(asset/Fuentes/shlop\ rg.ttf);
 }
 *{
     font-family: "rickandmorty", sans-serif;
     margin: 0;
     padding: 0;
-    box-shadow: none;
 }
 body{
     background-color: #62a4ab;
