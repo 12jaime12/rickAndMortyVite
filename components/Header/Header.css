@@ -1,0 +1,14 @@
+header{
+    max-height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    margin:9vh 0px;
+    border-top: solid #c1f762 10px;
+    border-bottom: solid #c1f762 10px;
+}
+header > img{
+    height: auto;
+    width: 100%;
+}

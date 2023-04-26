@@ -1,0 +1,29 @@
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    margin: 2.5rem 0;
+    
+}
+h1{
+    margin: 1rem;
+}
+input{
+    min-width: 100px;
+    border: solid #c1f762 3px;
+    background-color: transparent;
+    color: #c1f762;
+    padding: 1rem 10px;
+    font-size: 20px;
+    
+
+    
+}
+input::placeholder{
+    color: #c1f762;
+}
+section > ul{
+    margin: 3rem 0;
+}
