@@ -1,6 +1,6 @@
 @font-face {
     font-family: "rickandmorty";
-    src: url(assets/Fuentes/shlop\ rg.ttf);
+    src: url(asset/Fuentes/shlop\ rg.ttf);
 }
 *{
     font-family: "rickandmorty", sans-serif;
