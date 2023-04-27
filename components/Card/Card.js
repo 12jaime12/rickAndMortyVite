@@ -2,7 +2,7 @@ import "./Card.css";
 
 export const template = (character) => {
   return `
-    <img src="${character.image}"/>
+    <img src="${character.image}" alt="${character.name}"/>
     <div class="divPosition">
     <h2 class="positionB">${character.name}</h2>
     <h2 class="positionA">${character.name}</h2>
