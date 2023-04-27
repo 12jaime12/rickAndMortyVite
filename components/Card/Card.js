@@ -3,7 +3,10 @@ import "./Card.css";
 export const template = (character) => {
   return `
     <img src="${character.image}"/>
-    <h2>${character.name}</h2>
+    <div class="divPosition">
+    <h2 class="positionB">${character.name}</h2>
+    <h2 class="positionA">${character.name}</h2>
+    </div>
     <div class="verdeDiv">
     <p><span class="verde">Estado: </span>${character.status}</p>
     </div>
