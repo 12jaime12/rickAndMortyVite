@@ -52,7 +52,7 @@ button:disabled{
     opacity: 0.2;
 }
 button:hover{
-    scale: 1.05;
+    background-color: black;
 }
 .divTitulos{
     width: 100%;
