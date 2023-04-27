@@ -1,10 +1,10 @@
 @font-face {
     font-family: "rickandmorty";
     font-weight: 300;
-    src: url(assets/Fuentes/shlop\ rg.ttf);
+    src: url(assets/Fuentes/letra.ttf);
 }
 *{
-    font-family: rickandmorty, sans-serif;
+    font-family: "rickandmorty", sans-serif;
     margin: 0;
     padding: 0;
 }
