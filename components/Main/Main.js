@@ -6,7 +6,9 @@ let disablePrevious;
 let disableNext;
 const template = () => {
   return `
-    <h1>GALLERY</h1>
+    
+    <h1 >GALLERY</h1>
+    <h1 class="position">GALLERY</h1>
     <ul id="gallery"></ul>
     <div class="buttonControl"></div>
     `;

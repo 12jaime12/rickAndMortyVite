@@ -3,6 +3,7 @@ import { template as card } from "../Card/Card";
 const template = () => {
   return `
     <h1>search</h1>
+    <h1 class="position">search</h1>
   <div>
     <input class="searchInput" type="text" placeholder="ej: Rick Sanchez" />
     <button class="searchButton">Search</button>

@@ -5,13 +5,13 @@ export const template = (character) => {
     <img src="${character.image}"/>
     <h2>${character.name}</h2>
     <div class="verdeDiv">
-    <p class="verde">Estado:</p><p>${character.status}</p>
+    <p><span class="verde">Estado: </span>${character.status}</p>
     </div>
     <div class="verdeDiv">
-    <p class="verde">Especie:</p><p>${character.species}</p>
+    <p><span class="verde">Especie: </span>${character.species}</p>
     </div>
     <div class="verdeDiv">
-    <p class="verde">Nacionalidad:</p><p>${character.origin.name}</p>
+    <p><span class="verde">Nacionalidad: </span>${character.origin.name}</p>
     </div>
     `;
 };
