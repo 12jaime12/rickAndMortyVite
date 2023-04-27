@@ -107,6 +107,7 @@ button:hover{
     .getAll{
         margin-left: 0;
         margin-top: 1rem;
+        width: 100%;
     }
     .carta{
         width: 350px;
