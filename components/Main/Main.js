@@ -60,6 +60,8 @@ const event = () => {
 
   const buttonAll = document.querySelector(".getAll");
   buttonAll.addEventListener("click", (e) => {
+    const ulAll = document.querySelector("#gallery");
+    ulAll.innerHTML = "";
     getData(pageNum);
   });
 };
